@@ -80,11 +80,11 @@ def hangman(filename, guess_func):
 if __name__ == "__main__":
     args = parser.parse_args()
     
-    if args.play:
-        hangman("training.txt", play_move)
-    elif args.sample:
-        hangman("training.txt", suggest_next_letter)  
-    else:
-        hangman("training.txt", suggest_next_letter_sol)
+    #if args.play:
+     #   hangman("training.txt", play_move)
+    #elif args.sample:
+    #    hangman("training.txt", suggest_next_letter)  
+    
+    hangman("C:\\Users\\Rohan Sharma\\Desktop\\Mosaic-24-main\\Mosaic PS2\\training.txt", suggest_next_letter_sol)
     
         
