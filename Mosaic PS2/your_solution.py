@@ -219,7 +219,7 @@ def trigram_guesser(mask, guessed, bigram_counts=bigram_counts_for_trigram, trig
     return available[trigram_probs.index(max(trigram_probs))]
 
 
-# Add $$ to the front of a word for trigram conversion
+# Add $$$ to the front of a word for fourgram conversion
 def fourgram_convert_word(word):
     return "$$$" + word
 
